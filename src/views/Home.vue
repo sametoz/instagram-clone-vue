@@ -1,10 +1,16 @@
 <template>
-  <div class="home">Test Sayfası</div>
+  <div class="home">
+    <CustomText>Selam</CustomText>
+  </div>
 </template>
 
 <script>
+import CustomText from "@/components/CustomText";
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    CustomText
+  }
 };
 </script>
 
