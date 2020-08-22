@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <CustomText>Selam</CustomText>
+    <CustomText tag="p">Selam</CustomText>
+    <CustomText tag="b" size="xsmall">Selam</CustomText>
   </div>
 </template>
 
